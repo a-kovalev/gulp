@@ -53,7 +53,7 @@ gulp.task('libs', () => {
 
 gulp.task('scripts', () => {
 	let combined = combine.obj([
-		gulp.src(['./dev/js/**/*.js', '!./dev/js/libs.js']),
+		gulp.src(['./dev/js/*.js', '!./dev/js/libs.js']),
 		ENV.dev($.sourcemaps.init()),
 		$.babel({
 			presets: ['env'],
