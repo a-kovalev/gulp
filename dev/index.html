@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>ТРЦ Пионер</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+</head>
+<body>
+	<header class="header">
+		<div class="header__inner container">
+			<div class="header__cell">
+				<a href="#" class="map-floor-link">
+					<svg class="map-floor-link__icon"><use xlink:href="img/icons.svg#icon-map"></svg>
+					<span href="#" class="link">Карта <br>этажей</span>
+				</a>
+			</div>
+
+			<div class="header__cell header__cell_menu">
+				<a href="javascript:void(0);" class="btn-menu"><svg class="btn-menu__icon"><use xlink:href="img/icons.svg#icon-menu"></svg></a>
+			</div>
+
+			<div class="header__cell header__cell_logo">
+				<a href="#" class="logo"><img src="img/logo.svg" class="logo__img" alt="" /></a>
+			</div>
+
+			<div class="header__cell header__cell_shops">
+				<a href="#" class="map-floor-link">
+					<svg class="map-floor-link__icon"><use xlink:href="img/icons.svg#icon-map"></svg>
+					<span href="#" class="link">Карта <br>этажей</span>
+				</a>
+			</div>
+
+			<div class="header__cell">
+				<a href="#" class="header__phone">+7 (3852) 52-51-44</a>
+
+				<form class="search-form header__search">
+					<input type="text" class="search-form__input" name="q" placeholder="Поиск по сайту…" />
+					<button class="search-form__button">
+						<svg class="search-form__icon"><use xlink:href="img/icons.svg#icon-search"></svg>
+					</button>
+				</form>
+			
+				<div class="header__social">
+					<a href="#" class="social-link"><svg class="social-link__icon"><use xlink:href="img/icons.svg#icon-vk"></svg></a>
+					<a href="#" class="social-link"><svg class="social-link__icon"><use xlink:href="img/icons.svg#icon-instagram"></svg></a>
+				</div>
+			</div>
+
+			<img
+				src="img/main-parallax-1.png" 
+				class="b-parallax b-parallax_1" 
+				data-paroller-factor="-.2"
+				data-paroller-type="foreground" 
+			/>
+		</div>
+	</header>
+
+	<nav class="navigation container">
+		<ul class="navigation__list">
+			<li class="navigation__item"><a href="#" class="navigation__link active">Магазины</a></li>
+			<li class="navigation__item"><a href="#" class="navigation__link">Ресторанный дворик</a></li>
+			<li class="navigation__item"><a href="#" class="navigation__link">Развлечения</a></li>
+			<li class="navigation__item"><a href="#" class="navigation__link">Услуги</a></li>
+			<li class="navigation__item"><a href="#" class="navigation__link">Новости и акции</a></li>
+			<li class="navigation__item"><a href="#" class="navigation__link">Афиша событий</a></li>
+			<li class="navigation__item"><a href="#" class="navigation__link">О пионере</a></li>
+			<li class="navigation__item"><a href="#" class="navigation__link">Контакты</a></li>
+		</ul>
+	</nav>
+	
+	<div class="wrapper">
+		<div class="masonry container">
+			<div class="masonry__column">
+				<div class="masonry__elem masonry__elem_h2">
+					<div class="main-card main-card_color_white main-card_type_1" style="background-image: url('pictures/main/main-1.jpg');">
+						<span></span>
+						<img src="pictures/main/h&m.svg" class="main-card__img" alt="" />
+						<a href="#" class="main-card__title">Скидки 20% в H&M</a>
+					</div>
+				</div>
+
+				<div class="masonry__elem masonry__elem_z">
+					<div class="main-card main-card_color_white main-card_type_2" style="background-image: url('pictures/main/main-2.jpg');">
+						<span class="card-date">
+							<span class="card-date__inner">
+								<span class="card-date__start">18 ноября, сб</span>
+								<span class="card-date__end">19 ноября, вс</span>
+							</span>
+						</span>
+
+						<a href="#" class="main-card__title">Черная пятница</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="masonry__column masonry__column_two">
+				<div class="masonry__row masonry__row_video">
+					<div class="masonry__elem">
+						<div class="main-card main-card_video">
+							<video controls="controls" preload="metadata" poster="video/poster.jpg">
+								<source src="video/pioner.mp4" />
+							</video>
+						</div>
+					</div>
+				</div>
+				
+				<div class="masonry__row masonry__row_two">
+					<div class="masonry__cell">
+						<div class="masonry__elem">
+							<div class="masonry__elem">
+								<div class="main-card" style="background-image: url('pictures/main/main-3.jpg');">
+									<span class="card-date">18 ноября, сб</span>
+									<a href="#" class="main-card__title">Открытие нового отдела «Bershka»</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="masonry__elem">
+							<div class="main-card main-card_color_white" style="background-image: url('pictures/main/main-4.jpg');">
+								<span class="card-date">
+									<span class="card-date__inner">
+										<span class="card-date__start">18 ноября, сб</span>
+										<span class="card-date__end">19 ноября, вс</span>
+									</span>
+								</span>
+							
+								<div>
+									<a href="#" class="main-card__title">Афиша мероприятий на выходные дни</a>
+									<a href="#" class="main-card__button button button_white">Весь календарь</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="masonry__cell">
+						<div class="masonry__elem masonry__elem_h2">
+							<div class="main-card" style="background-image: url('pictures/main/main-5.jpg');">
+								<span class="card-date">18 ноября, сб</span>
+								<a href="#" class="main-card__title">Открытие ТРЦ «Пионер»</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<img
+				src="img/main-parallax-2.png" 
+				class="b-parallax b-parallax_2"
+				data-paroller-factor=".1"
+				data-paroller-type="foreground" 
+				alt=""
+			/>
+		</div>
+
+		<div class="shops-slider">
+			<div class="container shops-slider__inner">
+				<ul class="shops-slider__items owl-carousel" id="sh-slider">
+					<li class="shops-slider__item">
+						<a href="#" class="shops-slider__link"><img src="pictures/partners/lenta.png" class="shops-slider__img" alt="" /></a>
+					</li>
+					
+					<li class="shops-slider__item">
+						<a href="#" class="shops-slider__link"><img src="pictures/partners/h&m.png" class="shops-slider__img" alt="" /></a>
+					</li>
+
+					<li class="shops-slider__item">
+						<a href="#" class="shops-slider__link"><img src="pictures/partners/burger-king.png" class="shops-slider__img" alt="" /></a>
+					</li>
+
+					<li class="shops-slider__item">
+						<a href="#" class="shops-slider__link"><img src="pictures/partners/chitai-gorod.png" class="shops-slider__img" alt="" /></a>
+					</li>
+					
+					<li class="shops-slider__item">
+						<a href="#" class="shops-slider__link"><img src="pictures/partners/detski-mir.png" class="shops-slider__img" alt="" /></a>
+					</li>
+
+					<li class="shops-slider__item">
+						<a href="#" class="shops-slider__link"><img src="pictures/partners/sela.png" class="shops-slider__img" alt="" /></a>
+					</li>
+
+					<li class="shops-slider__item">
+						<a href="#" class="shops-slider__link"><img src="pictures/partners/lenta.png" class="shops-slider__img" alt="" /></a>
+					</li>
+					
+					<li class="shops-slider__item">
+						<a href="#" class="shops-slider__link"><img src="pictures/partners/h&m.png" class="shops-slider__img" alt="" /></a>
+					</li>
+				</ul>
+
+				<div class="shops-slider__view-all">
+					<a href="#" class="link">Все магазины <br/>в ТРЦ «Пионер»</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="main-news">
+			<div class="page-title page-title_bg_white">
+				<div class="container">
+					<h1 class="title title_h1 page-title__title">Акции и Новости</h1>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="main-news__special">
+					<a href="#" class="b-special" style="background-image: url('pictures/special/special-1.jpg');">
+						<span class="b-special__title">Акция от Burger King</span>
+					</a>
+					
+					<a href="#" class="b-special" style="background-image: url('pictures/special/special-2.jpg');">
+						<span class="b-special__title">Скидки в H&M</span>
+					</a>
+				</div>
+
+				<div class="main-news__items news-list">
+					<div class="news-card">
+						<div class="news-card__inner">
+							<span class="news-card__img" style="background-image: url('pictures/news.jpg')"></span>
+
+							<span class="news-card__content">
+								<div class="news-card__top">
+									<div class="news-card__cube">
+										<img src="pictures/brands/h&m.jpg" class="news-card__cube-img" alt="" />
+									</div>
+
+									<a href="#" class="news-card__title title title_h4">Скидки в H&M</a>
+									<span class="news-card__text text">26 октября, совершая покупки с 17:00 до 18:00 часов в магазине H&M, вы получаете скидку 20%! Проведите счастливый час в H&M!</span>
+								</div>
+								
+								<div class="news-card__bottom">
+									<span class="news-card__date">26 октября</span>
+									<a href="#" class="news-card__button">Подробнее</a>
+								</div>
+							</span>
+						</div>
+					</div>
+
+					<div class="news-card">
+						<div class="news-card__inner">
+							<span class="news-card__img" style="background-image: url('pictures/news.jpg')"></span>
+
+							<span class="news-card__content">
+								<div class="news-card__top">
+									<div class="news-card__cube">
+										<img src="pictures/brands/chanel.jpg" class="news-card__cube-img" alt="" />
+									</div>
+
+									<a href="#" class="news-card__title title title_h4">Скидки в H&M</a>
+									<span class="news-card__text text">26 октября, совершая покупки с 17:00 до 18:00 часов в магазине H&M, вы получаете скидку 20%! Проведите счастливый час в H&M!</span>
+								</div>
+								
+								<div class="news-card__bottom">
+									<span class="news-card__date">26 октября</span>
+									<a href="#" class="news-card__button">Подробнее</a>
+								</div>
+							</span>
+						</div>
+					</div>
+
+					<div class="news-card">
+						<div class="news-card__inner">
+							<span class="news-card__img" style="background-image: url('pictures/news.jpg')"></span>
+
+							<span class="news-card__content">
+								<div class="news-card__top">
+									<div class="news-card__cube">
+										<img src="pictures/brands/puma.jpg" class="news-card__cube-img" alt="" />
+									</div>
+
+									<a href="#" class="news-card__title title title_h4">Скидки в H&M</a>
+									<span class="news-card__text text">26 октября, совершая покупки с 17:00 до 18:00 часов в магазине H&M, вы получаете скидку 20%! Проведите счастливый час в H&M!</span>
+								</div>
+								
+								<div class="news-card__bottom">
+									<span class="news-card__date">26 октября</span>
+									<a href="#" class="news-card__button">Подробнее</a>
+								</div>
+							</span>
+						</div>
+					</div>
+
+					<div class="news-card">
+						<div class="news-card__inner">
+							<span class="news-card__img" style="background-image: url('pictures/news.jpg')"></span>
+
+							<span class="news-card__content">
+								<div class="news-card__top">
+									<div class="news-card__cube">
+										<img src="pictures/brands/kari.jpg" class="news-card__cube-img" alt="" />
+									</div>
+
+									<a href="#" class="news-card__title title title_h4">Скидки в H&M</a>
+									<span class="news-card__text text">26 октября, совершая покупки с 17:00 до 18:00 часов в магазине H&M, вы получаете скидку 20%! Проведите счастливый час в H&M!</span>
+								</div>
+								
+								<div class="news-card__bottom">
+									<span class="news-card__date">26 октября</span>
+									<a href="#" class="news-card__button">Подробнее</a>
+								</div>
+							</span>
+						</div>
+					</div>
+				</div>
+				
+				<div class="main-news__button">
+					<a href="#" class="button button_middle">Смотреть еще</a>
+				</div>
+
+				<img 
+					src="img/main-parallax-3.png" 
+					class="b-parallax b-parallax_4" 
+					data-paroller-factor=".15"
+					data-paroller-type="foreground"
+				/>
+			</div>
+		</div>
+
+		<div class="main-photos">
+			<div class="page-title page-title_gray">
+				<div class="container">
+					<h1 class="title title_h1 page-title__title">Фотоотчеты</h1>
+				</div>
+			</div>
+
+			<div class="container main-photos__inner">
+				<div class="main-photos__cell">
+					<div class="report">
+						<span class="report__date">26 октября</span>
+						
+						<div class="report__b-title">
+							<a href="#" class="report__title title title_h4">Русско-африканский танцевальный марафон</a>
+						</div>
+						
+						<a href="#" class="report__link" style="background-image: url('pictures/main/report-1.jpg')"></a>
+					</div>
+				</div>
+
+				<div class="main-photos__cell">
+					<div class="report">
+						<span class="report__date">26 октября</span>
+						
+						<div class="report__b-title">
+							<a href="#" class="report__title title title_h4">Вечерний пионер</a>
+						</div>
+						
+						<a href="#" class="report__link" style="background-image: url('pictures/main/report-2.jpg')"></a>
+					</div>
+				</div>
+
+				<div class="main-photos__cell">
+					<form class="vote-form">
+						<span class="vote-form__title title title_h4">На концерт какого исполнителя вы пойдете в ТРЦ "Пионер"</span>
+
+						<p>
+							<input type="radio" class="radio-button" id="test1" name="radio-group" checked>
+							<label for="test1">Ленинград</label>
+						</p>
+						
+						<p>
+							<input type="radio" class="radio-button" id="test2" name="radio-group">
+							<label for="test2">Руки Вверх</label>
+						</p>
+						
+						<p>
+							<input type="radio" class="radio-button" id="test3" name="radio-group">
+							<label for="test3">Дискотека Авария</label>
+						</p>
+
+						<p>
+							<input type="radio" class="radio-button" id="test4" name="radio-group">
+							<label for="test4">Нюша</label>
+						</p>
+
+						<a href="#" class="button button_dark">Голосовать</a>
+					</form>
+				
+					<!-- Результаты голосования
+					<div class="vote-form">
+						<ul class="vote-items-list vote-question-list voting-result-box">
+							<li class="vote-item-vote vote-item-vote-first vote-item-vote-last vote-item-vote-odd ">
+								<span class="vote-form__title title title_h4">На концерт какого исполнителя вы пойдете в ТРЦ "Пионер"</span>
+
+								<table width="100%" class="vote-answer-table">
+									<tbody>
+										<tr>
+											<td width="30%" style="">Ленинград</td>
+											<td>
+												<div class="vote-answer-bar" style="width: 50%; background-color: #1288A0"></div>
+												<span class="vote-answer-counter">
+													<nobr>5 (50%)</nobr>
+												</span>
+											</td>
+										</tr>
+										
+										<tr>
+											<td width="30%" style="">Руки Вверх</td>
+											<td>
+												<div class="vote-answer-bar" style="width: 25%; background-color: #CC3333"></div>
+												<span class="vote-answer-counter">
+													<nobr>6 (25%)</nobr>
+												</span>
+											</td>
+										</tr>
+										
+										<tr>
+											<td width="30%" style="">Дискотека Авария</td>
+											<td>
+												<div class="vote-answer-bar" style="width: 70%; background-color: #66CC00"></div>
+												<span class="vote-answer-counter">
+													<nobr>4 (0%)</nobr>
+												</span>
+											</td>
+										</tr>
+										
+										<tr>
+											<td width="30%" style="">Нюша</td>
+											<td>
+												<div class="vote-answer-bar" style="width: 35%; background-color: #009999"></div>
+												<span class="vote-answer-counter">
+													<nobr>15 (0%)</nobr>
+												</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</li>
+						</ul>
+					</div>
+					-->
+				</div>
+
+				<img 
+					src="img/main-parallax-1.png"
+					class="b-parallax b-parallax_3" 
+					data-paroller-factor="-.15"
+					data-paroller-type="foreground"
+				/>
+			</div>
+
+				<div class="main-photos__button">
+				<a href="#" class="button button_middle">Все фотоотчеты</a>
+			</div>
+		</div>
+
+		<div class="b-cinema">
+			<div class="b-cinema__inner container">
+				<div class="b-cinema__cell">
+					<img src="img/multiple-cinema.png" class="b-cinema__logo" alt="" />
+					<h3 class="title title_h3 title_white b-cinema__title">Современный кинотеатр на 9 залов</h3>
+					
+					<div class="b-cinema__sound">
+						<span>Звук</span>
+						<img src="img/dolby-atmos.png" alt="" />
+					</div>
+
+					<a href="#" class="button button_white">Смотреть еще</a>
+				</div>
+				
+				<div class="b-cinema__cell">
+					<div class="c-posters">
+						<img class="c-posters__img" src="pictures/main/cinema-poster/3.1.jpg" alt="" />
+						<img class="c-posters__img" src="pictures/main/cinema-poster/2.1.jpg" alt="" />
+						<img class="c-posters__img" src="pictures/main/cinema-poster/1.jpg" alt="" />
+						<img class="c-posters__img" src="pictures/main/cinema-poster/2.2.jpg" alt="" />
+						<img class="c-posters__img" src="pictures/main/cinema-poster/3.2.jpg" alt="" />	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="main-instagram">
+			<div class="page-title page-title_bg_white">
+				<div class="container">
+					<h1 class="title title_h1 page-title__title">Instagram #pioneermall</h1>
+				</div>
+			</div>
+
+			<div class="main-instagram__inner container">
+				<div class="main-instagram__widget">
+					<div class="main-instagram__cell">
+						<img src="img/hand.png" class="main-instagram__hand" alt="" />
+					</div>
+
+					<div class="main-instagram__cell main-instagram__cell_button">
+						<a href="#" class="instagram-link">
+							<img src="img/instagram.svg" class="instagram-link__img" alt="" />
+							<span class="instagram-link__text">#pioneermall</span>
+						</a>
+					</div>
+
+					<div class="main-instagram__cell">
+						<ul class="main-instagram__list">
+							<li class="main-instagram__item">
+								<a href="#" class="main-instagram__link">
+									<img src="pictures/main/instagram/1.jpg" class="main-instagram__img" alt="" />
+								</a>
+							</li>
+
+							<li class="main-instagram__item">
+								<a href="#" class="main-instagram__link">
+									<img src="pictures/main/instagram/2.jpg" class="main-instagram__img" alt="" />
+								</a>
+							</li>
+
+							<li class="main-instagram__item">
+								<a href="#" class="main-instagram__link">
+									<img src="pictures/main/instagram/3.jpg" class="main-instagram__img" alt="" />
+								</a>
+							</li>
+
+							<li class="main-instagram__item">
+								<a href="#" class="main-instagram__link">
+									<img src="pictures/main/instagram/4.jpg" class="main-instagram__img" alt="" />
+								</a>
+							</li>
+
+							<li class="main-instagram__item">
+								<a href="#" class="main-instagram__link">
+									<img src="pictures/main/instagram/5.jpg" class="main-instagram__img" alt="" />
+								</a>
+							</li>
+
+							<li class="main-instagram__item">
+								<a href="#" class="main-instagram__link">
+									<img src="pictures/main/instagram/6.jpg" class="main-instagram__img" alt="" />
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<p class="text">«ПИОНЕР» расположен в центре города Барнаула на одной из самых крупных транспортных магистралей краевой столицы, по адресу: проспект Ленина, 102 В.</p>
+
+				<p class="text">Галерея представлена известными мировыми брендами одежды и обуви, продуктовым гипермаркетом «ЛЕНТА», магазином бытовой техники и электроники «ЭЛЬДОРАДО», гипермаркетом товаров для детей «ДЕТСКИЙ МИР», современным 9-зальным кинотеатром «Pioneer CINEMA», включающим кинозалы Active Hall с динамическими креслами D-Box и самой совершенной звуковой системой Dolby Atmos, парком развлечений для всех возрастных групп, большим фуд-кортом, автомойкой премиум класса.</p>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="footer__inner">
+			<div class="footer__info container">
+				<div class="footer__cell">
+					<div class="trc-info">
+						<a href="#" class="trc-info__logo"><img src="img/logo-white.svg" alt="" /></a>
+						<span class="trc-info__name">ТРЦ "Пионер"</span>
+						<span class="trc-info__text">Наш адрес: г.Барнаул, пр. Ленина, 102в</span>
+						<span class="trc-info__text">Тел. <a href="#" class="trc-info__link">+7 (3852) 52-51-44</a></span>
+						
+						<div class="trc-info__social">
+							<a href="#" class="social-link social-link_white">
+								<svg class="social-link__icon social-link__icon_size_24"><use xlink:href="img/icons.svg#icon-vk" /></svg>
+							</a>
+							
+							<a href="#" class="social-link social-link_white">
+								<svg class="social-link__icon social-link__icon_size_24"><use xlink:href="img/icons.svg#icon-instagram" /></svg>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer__cell footer__cell_nav">
+					<div class="footer__work-hours">
+						<div class="work-hours">
+							<span class="work-hours__title">Магазины</span>
+							<span class="work-hours__text">с 8:00 до 23:00</span>
+						</div>
+
+						<div class="work-hours">
+							<span class="work-hours__title">Пионер Синема</span>
+							<span class="work-hours__text">с 9:00 до 01:00</span>
+						</div>
+
+						<div class="work-hours">
+							<span class="work-hours__title">Лента</span>
+							<span class="work-hours__text">с 9:00 до 01:00</span>
+						</div>
+					</div>
+
+					<div class="footer__menu footer-nav">
+						<ul class="footer-nav__list">
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">О пионере</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Контакты</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Сотрудничество</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Обратная связь</a></li>
+						</ul>
+
+						<ul class="footer-nav__list">
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Магазины</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Рестораны</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Развлечения</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Услуги</a></li>
+						</ul>
+
+						<ul class="footer-nav__list">
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Новости и акции</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Афиша событий</a></li>
+							<li class="footer-nav__item"><a href="#" class="footer-nav__link">Карта этажей</a></li>
+						</ul>
+					</div>		
+				</div>
+			</div>
+
+			<div class="footer__b-copy container">
+				<div class="footer__copy">
+					<span>2017 Торгово-развлекательный центр "Пионер"</span>
+
+					<span class="copy">
+						<span class="copy__text">Разработка сайта -</span>
+						<a href="#" class="copy__link"><svg class="copy__logo"><use xlink:href="img/icons.svg#icon-lr"/></svg></a>
+					</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/libs.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
